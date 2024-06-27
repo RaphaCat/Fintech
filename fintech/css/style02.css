@@ -1,0 +1,74 @@
+body {
+    background-color: #f0f0f0; /* Ajuste a cor de fundo conforme necessário */
+  }
+  
+  .card {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #929292;
+    border-radius: 10px;
+    background-color: #c4c4c4;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    position: absolute; /* Torna o logo absoluto em relação ao .card */
+    top: -55px; /* Ajuste conforme necessário para quebrar o padding */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d3d4d4; /* Adicione um fundo para cobrir a borda */
+    padding: 0 10px; /* Adicione um padding lateral para o fundo */
+  }
+    
+  h4.text-center {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .btn-custom {
+    background-color: #b7b7b7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .btn-secondary-custom {
+    background-color: #b7b7b7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      padding: 10px;
+    }
+  
+    .form-control {
+      margin-bottom: 8px;
+    }
+  
+    .btn-custom, .btn-secondary-custom {
+      padding: 8px;
+    }
+  }
+  
